@@ -1,0 +1,25 @@
+.translate38_ls23{
+    transform: translate(0, -38px); 
+    letter-spacing: 23px;
+    font-family: 'Roboto Mono', monospace;
+}
+.translate40_ls23{
+    transform: translate(0, -40px); 
+    letter-spacing: 23px;
+    font-family: 'Roboto Mono', monospace;
+}
+.translate29_fs40{
+    transform: translate(0, -29px);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+.translate0_fs25{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+.cz_translate10 {
+    transform: translate(0, -10px);
+}
+.cz_roboto {
+    font-family: 'Roboto';
+}

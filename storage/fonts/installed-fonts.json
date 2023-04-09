@@ -1,0 +1,14 @@
+{
+    "roboto": {
+        "100": "\/Users\/romanlazko\/Library\/Mobile Documents\/com~apple~CloudDocs\/Site\/incz\/public_html\/storage\/fonts\/roboto_100_1c4e32da7e6c8539dd3a51af38f413be",
+        "300": "\/Users\/romanlazko\/Library\/Mobile Documents\/com~apple~CloudDocs\/Site\/incz\/public_html\/storage\/fonts\/roboto_300_32acfcb296f555e063ebba2be7db9e2f",
+        "normal": "\/Users\/romanlazko\/Library\/Mobile Documents\/com~apple~CloudDocs\/Site\/incz\/public_html\/storage\/fonts\/roboto_normal_7bc701b343c10631f60048716b96e4f7",
+        "500": "\/Users\/romanlazko\/Library\/Mobile Documents\/com~apple~CloudDocs\/Site\/incz\/public_html\/storage\/fonts\/roboto_500_5774d6fb05eba3d096525f821dbe4137",
+        "bold": "roboto_bold_8db5cb5d0586c1e891426d13097b1d04"
+    },
+    "roboto mono": {
+        "100": "\/Users\/romanlazko\/Library\/Mobile Documents\/com~apple~CloudDocs\/Site\/incz\/public_html\/storage\/fonts\/roboto_mono_100_9650f8797395a294b8d57840f47f98b0",
+        "300": "\/Users\/romanlazko\/Library\/Mobile Documents\/com~apple~CloudDocs\/Site\/incz\/public_html\/storage\/fonts\/roboto_mono_300_9bc3289645d8bb8630d0b5e64b1f77b2",
+        "normal": "roboto_mono_normal_6993c75795dec63f84b1e385d9671cd4"
+    }
+}

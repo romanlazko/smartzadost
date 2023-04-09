@@ -29,7 +29,6 @@
                 <i class="pl-3 fa-solid fa-file-export"></i>
             </a>
         </div>
-        
     </div>
 @endsection
 

@@ -429,7 +429,7 @@ class GreenBlankController extends Controller
             'additional' => null,
         ]))->set_option('dpi','80')->setPaper('A4', 'portrait');
 
-        return $pdf->stream('customer-list.pdf', ['Attachment' => 0]);
+        return $pdf->stream('Application for the issue and extension of a long-term residence permit.pdf', ['Attachment' => 0]);
     }
 
     public function pdfShow()
@@ -454,7 +454,7 @@ class GreenBlankController extends Controller
             'additional'                        => auth()->user()->additional,
         ]))->set_option('dpi','80')->setPaper('A4', 'portrait');
 
-        return $pdf->stream('customer-list.pdf', ['Attachment' => 0]);
+        return $pdf->stream('Application for the issue and extension of a long-term residence permit.pdf', ['Attachment' => 0]);
     }
 
     public function pdfDownload()
@@ -479,7 +479,7 @@ class GreenBlankController extends Controller
             'additional'                        => auth()->user()->additional,
         ]))->set_option('dpi','80')->setPaper('A4', 'portrait');
 
-        return $pdf->download('customer-list.pdf', ['Attachment' => 0]);
+        return $pdf->download('Application for the issue and extension of a long-term residence permit.pdf', ['Attachment' => 0]);
     }
 
 }

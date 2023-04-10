@@ -11,9 +11,9 @@ curl_setopt_array($curl, array(
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS =>'{"from":{"email":"mailtrap@smartzadost.cz","name":"Mailtrap Test"},"to":[{"email":"romanlazko@gmail.com"}],"subject":"You are awesome!","text":"Congrats for sending test email with Mailtrap!","category":"Integration Test"}',
+    CURLOPT_POSTFIELDS =>'{"from":{"email":"info@smartzadost.cz","name":"Mailtrap Test"},"to":[{"email":"romanlazko@gmail.com"}],"subject":"You are awesome!","text":"Congrats for sending test email with Mailtrap!","category":"Integration Test"}',
     CURLOPT_HTTPHEADER => array(
-        'Authorization: Bearer ********678c',
+        'Authorization: Bearer 25ec17f0a7b637eae08ce72017ec678c',
         'Content-Type: application/json'
     ),
 ));

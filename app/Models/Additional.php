@@ -11,4 +11,10 @@ class Additional extends Model
     use HasFactory; use SoftDeletes;
 
     protected $guarded = [];
+
+    protected $casts = [
+        'email'         => UpeercaseCrypt::class,
+        'phone'         => UpeercaseCrypt::class,
+        'information'   => UpeercaseCrypt::class,
+    ];
 }

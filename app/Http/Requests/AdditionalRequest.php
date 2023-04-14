@@ -23,7 +23,7 @@ class AdditionalRequest extends FormRequest
     {
         return [
             'email'         => 'nullable|string|email',
-            'phone'         => 'nullable|string|cz_latin_marks',
+            'phone'         => 'nullable|string|phone',
             'information'   => 'nullable|string|cz_latin_marks'
         ];
     }

@@ -31,5 +31,9 @@ class ValidationServiceProvider extends ServiceProvider
         Validator::extend('cz_latin_marks', function($attributes, $value){
             return preg_match('/^[a-zA-Za-žA-Ž0-9\p{P} ]*$/u', $value);
         }, 'The field must contain only Latin or Czech characters, numbers and punctuation marks');
+
+        Validator::extend('phone', function($attributes, $value){
+            return preg_match('/^[0-9 +]*$/u', $value);
+        }, 'The field must contain only numbers and +');
     }
 }

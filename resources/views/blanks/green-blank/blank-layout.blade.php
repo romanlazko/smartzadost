@@ -8,15 +8,15 @@
             </h2>
         </div>
         <div class="space-x-3 hidden md:block">
-            <x-a-button href="{{ route('green-blank.pdf-empty') }}" class="bg-gray-800 hover:bg-gray-700">
-                {{ __('Empty ') }} <i class="pl-3 fa-solid fa-file"></i></i>
-            </x-a-button>
-            <x-a-button href="{{ route('green-blank.pdf-show') }}" class="bg-gray-800 hover:bg-gray-700">
-                {{ __('Show ') }} <i class="pl-3 fa-solid fa-file-pdf"></i></i>
-            </x-a-button>
-            <x-a-button href="{{ route('green-blank.pdf-download') }}" class="bg-gray-800 hover:bg-gray-700">
+            <x-a-target-button href="{{route('green-blank.pdf-empty')}}">
+                {{ __('Empty') }} <i class="pl-3 fa-solid fa-file"></i>
+            </x-a-target-button>
+            <x-a-target-button href="{{ route('green-blank.pdf-show') }}">
+                {{ __('Show ') }} <i class="pl-3 fa-solid fa-file-pdf"></i>
+            </x-a-target-button>
+            <x-a-target-button href="{{ route('green-blank.pdf-download') }}">
                 {{ __('Download ') }} <i class="pl-3 fa-solid fa-file-export"></i>
-            </x-a-button>
+            </x-a-target-button>
         </div>
         <div class="space-x-3 md:hidden block">
             <a href="{{ route('green-blank.pdf-empty') }}">

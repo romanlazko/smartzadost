@@ -28,15 +28,15 @@
                     </a>
                 </div>
                 <div class="space-x-3 hidden lg:block">
-                    <x-a-button href="{{ route('green-blank.index') }}" class="bg-gray-800 hover:bg-gray-700">
+                    <x-a-button href="{{ route('green-blank.index') }}">
                         {{ __('Fill ') }} <i class="pl-3 fa-solid fa-file-pen"></i></i></i>
                     </x-a-button>
-                    <x-a-button href="{{ route('green-blank.pdf-show') }}" class="bg-gray-800 hover:bg-gray-700">
-                        {{ __('Show ') }} <i class="pl-3 fa-solid fa-file-pdf"></i></i>
-                    </x-a-button>
-                    <x-a-button href="{{ route('green-blank.pdf-download') }}" class="bg-gray-800 hover:bg-gray-700">
+                    <x-a-target-button href="{{ route('green-blank.pdf-show') }}">
+                        {{ __('Show ') }} <i class="pl-3 fa-solid fa-file-pdf"></i>
+                    </x-a-target-button>
+                    <x-a-target-button href="{{ route('green-blank.pdf-download') }}">
                         {{ __('Download ') }} <i class="pl-3 fa-solid fa-file-export"></i>
-                    </x-a-button>
+                    </x-a-target-button>
                 </div>
                 
             </div>

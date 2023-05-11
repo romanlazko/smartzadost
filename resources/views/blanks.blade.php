@@ -38,8 +38,9 @@
                         {{ __('Download ') }} <i class="pl-3 fa-solid fa-file-export"></i>
                     </x-a-target-button>
                 </div>
-                
             </div>
         </div>
+        <x-advertisement.centr1/>
     </div>
+    
 @endsection

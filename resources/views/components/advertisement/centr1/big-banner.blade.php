@@ -8,7 +8,7 @@
         </div>
         <div class="rounded-md bg-white sm:bg-transparent sm:rounded-none">
             <ul class=" text-purple-700 space-y-1 text-center text-xs sm:text-left sm:text-base">
-                <li class="sm:bg-white px-1 sm:rounded-md">- бронежилет для визы: визовая и юридическая поддержка</li>
+                <li class="sm:bg-white px-1 sm:rounded-md">- твой надежный щит для визы: визовая и юридическая поддержка</li>
                 <li class="sm:bg-white px-1 sm:rounded-md">- всегда лучшее из актуальных предложений на рынке</li>
                 <li class="sm:bg-white px-1 sm:rounded-md">- все сопроводительные услуги для получения ВНЖ/ПМЖ</li>
                 <li class="sm:bg-white px-1 sm:rounded-md">- онлайн оформление и консультации</li>

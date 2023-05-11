@@ -1,4 +1,4 @@
-<div class="my-5 p-8 sm:w-full bg-white overflow-hidden shadow-sm sm:rounded-lg bg-cover bg-center bg-no-repeat sm:flex font-sans grid " style="background-image: url('img/advertisement/centr1/fon.png')">
+<div class="my-5 p-8 sm:w-full bg-white overflow-hidden shadow-sm sm:rounded-lg bg-cover bg-center bg-no-repeat sm:flex font-sans grid " style="background-image: url('/img/advertisement/centr1/fon.png')">
     <div class="flex-col sm:w-2/3 w-full space-y-2 sm:space-y-4">
         <div class="">
             <h1 class="sm:text-6xl text-2xl text-white font-extrabold text-center sm:text-left">Страховка <br>для иностранцев</h1>
@@ -19,7 +19,7 @@
         <div class="grid grid-cols-1 space-y-2 ">
             <div class="grid grid-cols-2 items-center sm:grid-cols-1">
                 <div class="">
-                    <img src="img/advertisement/centr1/pvzp.png" alt="" class="float-right sm:w-96 m-max">
+                    <img src="/img/advertisement/centr1/pvzp.png" alt="" class="float-right sm:w-96 m-max">
                 </div>
                 <div class="sm:px-4 ">
                     <div class="flex">

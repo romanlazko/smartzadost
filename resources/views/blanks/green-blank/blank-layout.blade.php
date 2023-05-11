@@ -34,7 +34,7 @@
 
 @section('content')
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <x-advertisement.centr1/>
+        <x-advertisement.centr1.small-banner/>
         @yield('form')
     </div>
     

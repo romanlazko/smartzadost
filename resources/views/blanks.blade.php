@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <x-advertisement.centr1/>
+        <x-advertisement.centr1.big-banner/>
     </div>
     
 @endsection

@@ -34,12 +34,14 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'consent_to_the_collection_of_personal_data' => ['required', 'boolean'],
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'consent_to_the_collection_of_personal_data' => $request->consent_to_the_collection_of_personal_data,
         ]);
 
         event(new Registered($user));

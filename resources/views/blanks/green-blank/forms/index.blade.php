@@ -19,9 +19,13 @@
                 <p>
                     {{ __("The application must contain the applicant's personal data, purpose of stay, place of residence and other necessary information.")}}
                 </p>
+                <div class="mt-4 p-3 rounded-xl bg-gray-800 text-white">
+                    <p>
+                        {{ __("Your data is fully encrypted, we use cryptographic technology to encrypt your data.") }}
+                    </p>
+                </div>
             </div>
         </div>
-        
         
         <div class="flex justify-between sm:justify-start sm:block">
             <x-a-button :href="route('green-blank.application')" class="mt-8 bg-gray-800 hover:bg-gray-700">

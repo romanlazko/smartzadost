@@ -28,6 +28,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'consent_to_the_collection_of_personal_data',
     ];
 
     /**

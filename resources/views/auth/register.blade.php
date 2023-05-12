@@ -43,6 +43,17 @@
                     <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                 </div>
 
+                <div class="mt-4">
+                    <a href="{{ route('privacy-policy') }}" class="text-xs text-blue-500">Privacy policy / Informace o zpracování osobních údajů</a>
+                    <x-input-label for="consent_to_the_collection_of_personal_data" class="flex justify-start items-center">
+                        <x-text-input id="consent_to_the_collection_of_personal_data" class="block mr-2" value="{{true}}"
+                                    type="checkbox"
+                                    name="consent_to_the_collection_of_personal_data" required autocomplete="new-consent_to_the_collection_of_personal_data" />
+                        {{__('I give my consent to the collection and storage of my personal data / Souhlasím se zpracováním a uchováváním svých osobních údajů.')}}
+                    </x-input-label>
+                    <x-input-error :messages="$errors->get('consent_to_the_collection_of_personal_data')" class="mt-2" />
+                </div>
+
                 <div class="flex items-center justify-end mt-4">
                     <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
                         {{ __('Already registered?') }}

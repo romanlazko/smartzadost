@@ -47,6 +47,18 @@
             @endif
         </div>
 
+        <div class="@if (!$user->consent_to_the_collection_of_personal_data) bg-red-300 @endif rounded-md px-2">
+            <a href="{{ route('privacy-policy') }}" class="text-sm text-blue-500 hover:underline">Privacy policy / Informace o zpracování osobních údajů</a>
+            <x-input-label for="consent_to_the_collection_of_personal_data" class="flex justify-start items-center">
+                <x-text-input id="consent_to_the_collection_of_personal_data" class="block mr-2" value="{{true}}"
+                            type="checkbox"
+                            :checked="$user->consent_to_the_collection_of_personal_data"
+                            name="consent_to_the_collection_of_personal_data" required autocomplete="new-consent_to_the_collection_of_personal_data" />
+                {{__('I give my consent to the collection and storage of my personal data / Souhlasím se zpracováním a uchováváním svých osobních údajů.')}}
+            </x-input-label>
+            <x-input-error :messages="$errors->get('consent_to_the_collection_of_personal_data')" class="mt-2" />
+        </div>
+
         <div class="flex items-center gap-4">
             <x-primary-button>{{ __('Save') }}</x-primary-button>
 

@@ -15,6 +15,9 @@
                     <x-nav-link :href="route('blanks')" :active="request()->routeIs('blanks')">
                         {{ __('Blanks') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('privacy-policy')" :active="request()->routeIs('privacy-policy')">
+                        {{ __('Privacy policy') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -86,6 +89,9 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('blanks')" :active="request()->routeIs('blanks')">
                 {{ __('Blanks') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('privacy-policy')" :active="request()->routeIs('privacy-policy')">
+                {{ __('Privacy policy') }}
             </x-responsive-nav-link>
         </div>
 

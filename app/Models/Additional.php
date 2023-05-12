@@ -18,4 +18,5 @@ class Additional extends Model
         'phone'         => UpeercaseCrypt::class,
         'information'   => UpeercaseCrypt::class,
     ];
+    
 }

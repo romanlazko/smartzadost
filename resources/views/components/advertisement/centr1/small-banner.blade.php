@@ -1,7 +1,5 @@
 <div class="mb-5 px-6 sm:w-full bg-white overflow-hidden shadow-sm sm:rounded-lg bg-cover bg-center bg-no-repeat sm:flex font-sans" style="background-image: url('/img/advertisement/centr1/fon.png')">
-    
     <div class=" w-full space-y-2 sm:space-y-4 justify-between items-center">
-        
         <div class="">
             <div class="flex justify-between items-center py-1">
                 <div class="flex-col w-2/3 sm:w-1/3">
@@ -24,8 +22,5 @@
                 </div>
             </div>
         </div>
-    
     </div>
-    
-      
 </div>

@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <x-advertisement.centr1.big-banner/>
+        <x-advertisement.centr1.gaid.big-banner/>
     </div>
     
 @endsection

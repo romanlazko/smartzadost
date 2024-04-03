@@ -53,6 +53,16 @@
                                         {{ __('Log Out') }}
                                     </x-dropdown-link>
                                 </form>
+                                {{-- <hr>
+                                <x-dropdown-link :href="route('language', 'ru')">
+                                    {{ __('RU') }}
+                                </x-dropdown-link>
+                                <x-dropdown-link :href="route('language', 'en')">
+                                    {{ __('EN') }}
+                                </x-dropdown-link>
+                                <x-dropdown-link :href="route('language', 'cz')">
+                                    {{ __('CZ') }}
+                                </x-dropdown-link> --}}
                             </x-slot>
                         </x-dropdown>
                     </div>

@@ -9,19 +9,19 @@
             </div>
             <div class="w-full md:w-5/6">
                 <p>
-                    {{ __("This is an application for a long-term residence, which is submitted by foreign nationals who are not citizens of the European Union or the European Economic Area and who wish to stay in the country for a long period of time.") }}
+                    {{ __("greenblank.forms.index.application") }}
                 </p>
                 <br>
                 <p>
-                    <b>{{ __("These can be, for example, students studying in the Czech Republic, entrepreneurs, spouses or family members of Czech citizens, etc.") }}</b>
+                    <b>{{ __("greenblank.forms.index.diversity") }}</b>
                 </p>
                 <br>
                 <p>
-                    {{ __("The application must contain the applicant's personal data, purpose of stay, place of residence and other necessary information.")}}
+                    {{ __("greenblank.forms.index.information")}}
                 </p>
                 <div class="mt-4 p-3 rounded-xl bg-gray-800 text-white">
                     <p>
-                        {{ __("Your data is fully encrypted, we use cryptographic technology to encrypt your data.") }}
+                        {{ __("greenblank.forms.index.encryption") }}
                     </p>
                 </div>
             </div>
@@ -29,7 +29,7 @@
         
         <div class="flex justify-between sm:justify-start sm:block">
             <x-a-button :href="route('green-blank.application')" class="mt-8 bg-gray-800 hover:bg-gray-700">
-                {{ __("Start filling") }}
+                {{ __("greenblank.forms.index.start_filling") }}
             </x-a-button>
         </div>
     </div>

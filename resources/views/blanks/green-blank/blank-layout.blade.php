@@ -4,7 +4,7 @@
     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <div class="w-1/2">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                {{ __('Application for the issue and extension of a long-term residence permit') }}
+                {{ __('greenblank.layout.header.title') }}
             </h2>
         </div>
         <div class="space-x-3 hidden md:block">
